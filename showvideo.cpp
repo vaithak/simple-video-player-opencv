@@ -30,14 +30,18 @@ int main( int argc, char** argv  ) {
 			g_run+=1;
 		}
 	char c= (char) cv::waitKey(30);
-		if(c=='p')
+		if(c==32)
 		{
-			g_run=-1; cout<<"Pause"<<endl;
+			if(g_run>0)
+				{g_run=-1; cout<<"Pause"<<endl;}
+			else{
+				g_run=1;cout<<"PLay"<<endl;
+			}
 		}
-		if(c=='r')
-		{
-			g_run=1; cout<<"Play"<<endl;
-		}
+		// if(c=='r')
+		// {
+		// 	g_run=1; cout<<"Play"<<endl;
+		// }
 		if(c==27)
 			break;
 	}
