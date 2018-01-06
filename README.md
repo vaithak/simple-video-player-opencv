@@ -8,5 +8,5 @@ A simple video player made in opencv
 * Run make command
 * Then execute the binary file generated
 
-=> Press Space to pause or play the video.
+=> Press Space to pause or play the video.  
 => Press esc to exit/close the video.
