@@ -13,4 +13,4 @@ A simple video player made in opencv
 
 Example
 
-[!Image](https://raw.githubusercontent.com/vaithak/simple-video-player-opencv/master/sample.png)
+![Image](https://raw.githubusercontent.com/vaithak/simple-video-player-opencv/master/sample.png)
