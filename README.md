@@ -10,3 +10,7 @@ A simple video player made in opencv
 
 => Press Space to pause or play the video.  
 => Press esc to exit/close the video.
+
+Example
+
+[!Image](https://raw.githubusercontent.com/vaithak/simple-video-player-opencv/master/sample.png)
